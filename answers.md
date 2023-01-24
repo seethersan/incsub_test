@@ -37,14 +37,13 @@
 
 8. How would you pass named arguments with parameterized values in a Batch job definition?
    Using the parameters property of the containerProperties object in the job definition. The parameters property is a dictionary that maps the parameter names to their values.
-   ´´´
+   ```
    "containerProperties": {
-   "parameters": {
-   "my-param": "my-value"
-   }
-   }
-
-´´´
+        "parameters": {
+            "my-param": "my-value"
+            }
+    }
+   ```
 
 ## AWS Lambda
 
